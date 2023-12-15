@@ -1,4 +1,9 @@
 #!//bin/bash
 
-echo "Hello Harish , My name is Devipriya"
-echo "Hi Harish , I am Devi priya"
+#variables
+
+PERSON1=Harish
+PERSON2=Devipriya
+
+echo "Hello $PERSON2 , My name is $PERSON1"
+echo "Hi $PERSON1 , I am $PERSON2"
